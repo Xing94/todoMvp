@@ -34,7 +34,7 @@ public class MainPresenter implements MainContract.Presenter {
     @Override
     public void netRequest() {
 
-        RetrofitUtil.request(mView, RetrofitUtil.getMainService().login("13122576190", "24cfeed0c1c1d9ed3414afc78d096b67"),
+        RetrofitUtil.request(mView, RetrofitUtil.getMainService().login("1311111111", "24cfeed0c1c1d9ed3414afc78d096b67"),
                 new NetCallBack<LoginBean>() {
                     @Override
                     public void onSuccess(LoginBean bean) {
