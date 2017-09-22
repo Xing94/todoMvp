@@ -8,5 +8,5 @@ import retrofit2.http.POST;
 
 public interface UrlConstant {
 
-    String login = "SleepDetector/client/user/login";
+    String login = "TestApp/client/user/login";
 }

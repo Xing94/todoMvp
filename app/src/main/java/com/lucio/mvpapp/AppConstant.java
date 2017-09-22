@@ -10,7 +10,7 @@ public class AppConstant {
     public static boolean isDebug = true;
 
     //测试环境服务器
-    private static String DEBUG_HOST = "http://healthsleep.onethird.com.cn/";
+    private static String DEBUG_HOST = "http://www.test.null/";
 
     //正式环境服务器
     private static String RELEASE_HOST = "";
